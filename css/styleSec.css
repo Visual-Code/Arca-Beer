@@ -1,0 +1,224 @@
+/*---------------SECCION 1---------------*/
+#portada{
+     background-image: url(../img/secciones/portada.jpg);
+}
+.slogan{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align:right;
+    color: azure;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.8);
+ 
+}.slogan .tx2{
+    color: rgba(244, 188, 36, 1); 
+    font-size: 60;
+}
+
+
+/*---------------SECCION 2---------------*/
+#conocenos{   
+    background-image: url(../img/secciones/2.jpg);
+}
+
+#conocenos .text-sec2 p{
+    padding: 20px;
+    text-align: justify;
+    color: azure;
+}
+
+/*--------*/
+@media (min-width:320px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    #conocenos .menu-sec2{
+        padding: 0;
+        background: rgba(0,0,0,0.4);
+        border-radius: 4px;
+    }
+    #conocenos .menu2 .nav{ 
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    padding: 40px;
+    text-align: center;
+    }
+    #conocenos .menu2 .nav li{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 2;
+    width: 200px;
+    margin: auto;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.8);
+    }
+    #conocenos .menu2 .nav li:nth-child(1){ color: rgba(244, 188, 36, 1);}
+    #conocenos .menu2 .nav li:hover{cursor:pointer; color: rgba(244, 188, 36, 1); }
+    #conocenos .text-sec2{
+    padding: 10px 10px 20px 10px;
+    background: rgba(0,0,0,0.4);
+        font-size: 18px;
+        border-radius: 4px;
+    }
+    
+}
+
+@media (min-width:1025px){
+    #conocenos .menu-sec2{
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    padding: 0;
+}
+#conocenos .menu2{
+    height: 40vh;
+    padding-top: 40px;
+}
+#conocenos .menu2 .nav{ 
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    padding: 40px;
+    text-align: center;
+}
+#conocenos .menu2 .nav li{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 2;
+}
+
+#conocenos .text-sec2{
+    height: 60vh;
+    padding-top: 10px;
+    background: rgba(0,0,0,0.4);
+}
+}
+
+/*---------------SECCION 3---------------*/
+#productos{
+    background-image: url(../img/secciones/productos.jpg);
+}
+
+/*---------------SECCION 4---------------*/
+#noticias{
+    background-image: url(../img/secciones/noticias.jpg);
+}
+
+/*---------------SECCION 5---------------*/
+#contacto{
+    height: auto;
+    background-image: url(../img/secciones/contacto.png);
+}
+
+#contacto form{text-align: center;}
+#contacto legend{
+    text-align: center;
+    color: azure;
+}
+#contacto form input{
+}
+#contacto form button{
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid  #FFF;
+    color:  #FFF;
+    border-radius: 4px;
+}
+#contacto form button:hover{
+    color:  rgba(244, 188, 36, 1);
+    border-color:  rgba(244, 188, 36, 1);
+    box-shadow: 0px 4px 20px #000;
+}
+#contacto .direccion{
+    color: azure;
+    text-align: center;
+    
+}
+
+/*--------*/
+@media (min-width:320px)  { 
+    .con1{
+         background: rgba(0,0,0,0.4);
+        padding: 0;
+        border-radius: 4px;
+    }
+    #contacto .newsletter, #contacto .direccion{
+    padding: 20px;
+    }
+    #contacto .mapa{
+        padding: 0;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+}
+@media (min-width:480px)  { 
+
+}
+@media (min-width:641px)  { 
+   
+}
+@media (min-width:1000px)  { 
+    #contacto .newsletter, #contacto .direccion{ background: rgba(0,0,0,0.4); }
+    .con1{ background: none; }
+    #contacto .mapa{ margin-top: 0px; }
+}
+/*--------------- FOOTER ---------------*/
+footer{
+    background: #000;
+    padding: 40px 0px 40px 0px;
+}
+footer .pie{
+    display: flex;
+    flex-direction: column;
+    text-align: center;}
+footer .pie h5{
+    line-height: 2;
+    color: rgba(244, 188, 36, 1);
+    border-bottom: 1px solid  rgba(244, 188, 36, 1);
+}
+footer .pie a{
+    color: azure;
+    font-size: 12px;
+}
+footer .pie a:hover{
+    text-decoration: none;
+    color: rgba(244, 188, 36, 1);
+}
+footer .redes h5{
+    text-align: center;
+    line-height: 2;
+    color: azure;
+    border-bottom: 1px solid  rgba(244, 188, 36, 1);
+    color: rgba(244, 188, 36, 1);
+}
+footer .iconosRedes{
+    display: flex;
+    justify-content: space-around;
+}
+footer .redes a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
